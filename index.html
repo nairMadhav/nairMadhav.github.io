@@ -7,8 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="myWebsite.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="script" href="app.js">
+    <script src="https://kit.fontawesome.com/ad1d82477f.js" crossorigin="anonymous"></script>
     <title>Madhav's GitHub.io</title>
 </head>
 <body>
@@ -27,7 +28,7 @@
                 <a class="nav-link" href="#about-me">About Me</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
+                <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#projects">Projects</a>
@@ -60,7 +61,12 @@
 </div>
 <!--Skills-->
 <div class="skills" id="skills">
-
+    <h1>My Skills</h1>
+    <div class="row">
+        <button class="col text-warning bg-dark mb-3"><i class="fab fa-python" ></i><h5>Python</h5></button>
+        <button class="col text-danger bg-dark mb-3"><i class="fab fa-html5"></i><h5>HTML 5</h5></button>
+        <button class="col text-success bg-dark mb-3"><i class="fab fa-css3-alt"></i><h5>CSS 3</h5></button>
+    </div>
 </div>
 <!--Projects-->
 <div class="projects" id="projects">
@@ -72,7 +78,7 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://wallpapercave.com/wp/wp3242978.jpg" height="750" width="100" class="d-block w-100" alt="...">
+                <img src="https://wallpapercave.com/wp/wp3242978.jpg"  height="750" width="100" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h1>Project1</h1>
                     <p>Madhav Nair &copy; </p>
@@ -82,14 +88,14 @@
                 <img src="https://wallpapercave.com/wp/wp5609427.jpg" height="750" width="200" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h1>Project2</h1>
-                    <p>Madhav Nair &copy; </p>
+                    <p>Madhav Nair&copy; </p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="https://wallpapercave.com/wp/wp2611259.jpg" height="750" width="200" class="d-block w-100" alt="..." >
                 <div class="carousel-caption d-none d-md-block">
                     <h1>Project3</h1>
-                    <p>Madhav Nair &copy; </p>
+                    <p>Madhav Nair&copy; </p>
                 </div>
             </div>
         </div>
@@ -103,10 +109,25 @@
         </a>
     </div>
 </div>
+<!--Contact me-->
+<div class="contact-me" id="contact me">
+    <h1>Let's Connect</h1>
+    <div class="col">
+        <div class="row card"></div>
+        <div class="row card"></div>
+        <div class="row card"></div>
+        <div class="row card"></div>
+
+    </div>
+</div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+<script>
+    new Darkmode().showWidget();
+</script>
 </body>
 </html>
